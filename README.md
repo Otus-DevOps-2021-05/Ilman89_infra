@@ -13,3 +13,15 @@ build environment:
 bastion_IP = 84.201.158.121
 someinternalhost_IP = 10.128.0.16
 
+yc compute instance create \
+  --name reddit-app \
+  --hostname reddit-app \
+  --memory=4 \
+  --create-boot-disk image-folder-id=standard-images,image-family=ubuntu-1604-lts,size=10GB \
+  --network-interface subnet-name=default-ru-central1-a,nat-ip-version=ipv4 \
+  --metadata serial-port-enable=1 \
+  --metadata-from-file user-data=startup_script.sh \
+  --ssh-key ~/.ssh/appuser.pub
+
+testapp_IP = 178.154.206.76
+testapp_port = 9292
