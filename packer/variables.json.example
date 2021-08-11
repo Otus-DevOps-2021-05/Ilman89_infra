@@ -1,8 +1,16 @@
 {
-  "type": "yandex",
-  "token": "YOUR OAUTH TOKEN",
-  "folder_id": "YOUR FOLDER ID",
-  "source_image_family": "ubuntu-1804-lts",
-  "ssh_username": "ubuntu",
-  "use_ipv4_nat": "true"
+    "builders": [
+        {
+            "type": "yandex",
+            "service_account_key_file": "C:/Users/1/Documents/devops/key.json",
+            "folder_id": "b1gd4kr6ve971563u1a6",
+            "source_image_family": "ubuntu-1604-lts",
+            "image_name": "reddit-base-{{timestamp}}",
+            "image_family": "reddit-base",
+            "ssh_username": "ubuntu",
+            "platform_id": "standard-v1",
+			"use_ipv4_nat": "true"
+
+        }
+    ]
 }
