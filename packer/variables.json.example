@@ -1,7 +1,9 @@
 {
-"variables": {
-            "project_id": "",
-            "source_image_family": "",
-            "machine_type": "f1-micro"
+			
+  "image_id": "ami-abc123",
+  "availability_zone_names": ["us-west-1a", "us-west-1c"]
+
+            "project_id": "ertettw453",
+            "source_image_family": "reg",
+            "machine_type": "f1"
     }
-}
