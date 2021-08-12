@@ -1,7 +1,6 @@
 {			
 			"image_id": "ubu23",
 			"service_account_key_file": "key.json",
-            "project_id": "test",
-            "source_image_family": "asd",
-            "machine_type": "qwe"
+			"folder_id": "b1g56456564",
+            "project_id": "test"
 }

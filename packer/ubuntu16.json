@@ -24,12 +24,5 @@
             "script": "scripts/install_mongodb.sh",
             "execute_command": "sudo {{.Path}}"
         }
-    ],
-	"variables": {
-            "project_id": "",
-			"image_id": "",
-			"service_account_key_file": "",
-            "source_image_family": "",
-            "machine_type": ""
-    }
+    ]
 }
