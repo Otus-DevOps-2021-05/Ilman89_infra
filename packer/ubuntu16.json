@@ -2,7 +2,7 @@
     "builders": [
         {
             "type": "yandex",
-            "service_account_key_file": "C:/Users/1/Documents/devops/key.json",
+            "service_account_key_file": "key.json",
             "folder_id": "b1gd4kr6ve971563u1a6",
             "source_image_family": "ubuntu-1604-lts",
             "image_name": "reddit-base-{{timestamp}}",
@@ -27,7 +27,9 @@
     ],
 	"variables": {
             "project_id": "",
+			"image_id": "",
+			"service_account_key_file": "",
             "source_image_family": "",
-            "machine_type": "f1-micro"
+            "machine_type": ""
     }
 }
