@@ -1,9 +1,7 @@
-{
-			
-			"image_id": "ami-abc123",
-			"availability_zone_names": ["us-west-1a", "us-west-1c"]
-			"service_account_key_file": "C:/Users/1/Documents/devops/key.json"
-            "project_id": "ertettw453",
-            "source_image_family": "reg",
-            "machine_type": "f1"
-    }
+{			
+			"image_id": "ubu23",
+			"service_account_key_file": "key.json",
+            "project_id": "test",
+            "source_image_family": "asd",
+            "machine_type": "qwe"
+}
