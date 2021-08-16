@@ -25,3 +25,9 @@ yc compute instance create \
 
 testapp_IP = 178.154.206.76
 testapp_port = 9292
+
+Packer 
+1)Install;
+2)Create bake;
+3)deploy ip = 84.201.135.216 port = 9292;
+4)pullrequest
