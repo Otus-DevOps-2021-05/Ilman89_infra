@@ -31,3 +31,8 @@ Packer
 2)Create bake;
 3)deploy ip = 84.201.135.216 port = 9292;
 4)pullrequest
+
+Ansible-1
+Make inventory
+Invenory.yml
+Ansible_playbook
