@@ -36,3 +36,8 @@ Ansible-1
 Make inventory
 Invenory.yml
 Ansible_playbook
+
+Ansible-2
+One playbook
+Multiply
+Many
