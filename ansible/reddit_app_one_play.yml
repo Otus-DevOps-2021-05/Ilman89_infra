@@ -48,7 +48,7 @@
       template:
         src: templates/db_config.j2
         dest: /home/ubuntu/db_config
-      tags: app-tag	    
+      tags: app-tag
 
   handlers: # <-- Добавим блок handlers и задачу
   - name: reload puma
