@@ -5,4 +5,4 @@ variables.json
 *.tfvars
 .terraform
 *.retry
-ansible/roles/jdauphant.nginx
+/jdauphant.nginx
